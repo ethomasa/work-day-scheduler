@@ -285,7 +285,7 @@ function sixPM() {
   var output_div10 = document.querySelector("#comment6pm");
   var save_button10 = document.querySelector("#button6pm");
 
-  save_button10.addEventListener("click", updateOutput9);
+  save_button10.addEventListener("click", updateOutput10);
 
   output_div10.textContent = localStorage.getItem("content10");
   input_textarea10.value = localStorage.getItem("content10");
